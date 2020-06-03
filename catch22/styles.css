@@ -1,0 +1,108 @@
+html, body {
+	margin: 0;
+	height:100%;
+}
+header {
+	margin: 0;
+}
+p, header {
+	font-size: large;
+	line-height: 1.3;
+}
+p {
+	margin: 10px
+}
+body {
+	background: url("media/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	font: 100% Verdana, Geneva, sans-serif;
+}
+.navbar {
+	position: sticky;
+	overflow: hidden;
+	border-bottom: 3px solid red;
+	background-color: black;
+	text-transform: uppercase;
+}
+.navbar ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+	justify-content:space-between
+}
+.navbar a {
+	float: inline-start;
+	color: white;
+	padding: 10px 30px;
+}
+.navbar p {
+	float: inline-end;
+	color: white;
+	margin:0 0;
+	padding: 10px 30px;
+	font-size: x-large;
+}
+.navbar a:hover {
+	text-shadow: 2px 1px red;
+}
+#active {
+	font-size: 1.5em;
+	font-family: 'Times New Roman', Times, serif;
+}
+.title{
+	text-align: center;
+	color:white;
+	margin:0;
+	font-family: "Impact";
+	font-size: 8em;
+}
+.subtitle{
+	text-align: center;
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0;
+	margin-bottom: .25em;
+}
+.centered {
+	text-align: center;
+	position: relative;
+	float: center;
+}
+.content {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	flex: 1 0 auto;
+	border: 3px solid red;
+}
+.floatRight{
+	float:right;
+}
+.floatLeft{
+	float:left;
+}
+footer {
+	color:white;
+}
+h1 {
+	padding: 2px;
+	font-size: 2.8em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.short{
+	margin:0;
+}
+figure {
+	text-align: center;
+	border: thin silver solid;
+	caption-side: bottom;
+	margin: 0.5em;
+}
+img.scaled {
+	width: 45%;
+}

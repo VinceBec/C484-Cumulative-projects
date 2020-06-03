@@ -1,0 +1,42 @@
+/*CSS resets to make sure style are set in right*/
+body {
+    background-color:powderblue;
+    font-family: Georgia, Times, serif;
+    font-size: 100%;
+}
+/*CSS style to elements, class, id's*/	
+#container {
+    height: 100%;
+    margin: 0;
+}
+#map {
+    border-radius: 15px;
+    height: 820px; 
+    width: 820px;
+    margin:25px;
+    padding: 1em;
+}
+/* The text display section */	
+.results {
+    text-align:center;
+    margin:25px;
+    padding: 1em;
+    float: left;
+    border-radius: 25px;
+    background: white;
+}
+.wrongAns {
+    font-style: italic;
+    font-size: x-large;
+    color: red;
+}
+.rightAns {
+    font-style: italic;
+    font-size: x-large;
+    color: green;
+}
+.score {
+    font-style: italic;
+    font-size: xx-large;
+    color: goldenrod;
+}

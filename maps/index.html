@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>CSUN Map Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id = "container">
+      <!--class to display results and questions-->
+      <div class = "results" >
+        <h2>Map Quiz. Please double click on the map the location of:</h2>
+        <br>
+        <div id = "results_list">
+          <!--Field is filled by js-->
+        </div>
+      </div>
+      <!--google map div	-->
+      <div id = "map">
+        <!--field is filled by Google API-->
+      </div>
+    </div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs-VFBNuhu2UezR6iy4T1IXkGu_fyo2y8&callback=initMap"
+    type="text/javascript"></script>
+  </body>
+
+</html>
